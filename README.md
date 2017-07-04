@@ -110,14 +110,14 @@ if ($response == 'true') {
 -----------------------------------------------------------------------------------------------------------------------------------------
 Easy to set validation message position
 ```js
-var $response  = $(this).SfromValidate({
+$(this).SfromValidate({
    validation_message_position : $('.class_name_where_validation_msg_show')
 })
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------
 Easy to set custom validation message
 
-     `<input type="text" class="required" data-validation="Loan value field is reqired" name="ur_loan_value">`
+     ```html  <input type="text" class="required" data-validation="Loan value field is reqired" name="ur_loan_value">```		
                
 -----------------------------------------------------------------------------------------------------------------------------------------
 Easy to choose if you don't want loader
