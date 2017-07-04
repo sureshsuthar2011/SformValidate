@@ -5,25 +5,27 @@ form validation and send data to form action using ajax and without ajax action
 NOTE :  include SformValidate.css anf SformValidate.js file in your document
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-*Easy to use this plugin in our site.
+Easy to use this plugin in our site.
 -> Add below function after js file 
+
   $(target_form).submit(function(){
                       $(this).SfromValidate();
                      return false;
                  });
+                 
   in target_form add form class, id or custom attribute ..
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 East  to validate my form.
 -> 
-	1)required : add "required" class in which field you need required field validation.
-	2)email : add "email" class in which filed you need email field validation.
-	3)character : add "character" class in which field you need character  field validation.
-	4)number : add "number" class in which field you need number  field validation.
-	5)minimum : add "minimum" class in which field you need atleast minimum  character in field validation.
-	6)maximum: add "maximum" class in which field you need maximum character in field validation..
-	6)fix-lenght: add "fix-lenght" class in which field you need fix digit or character in field validation.(like 10 digit you need)
+	-1)required : add "required" class in which field you need required field validation.
+	-2)email : add "email" class in which filed you need email field validation.
+	-3)character : add "character" class in which field you need character  field validation.
+	-4)number : add "number" class in which field you need number  field validation.
+	-5)minimum : add "minimum" class in which field you need atleast minimum  character in field validation.
+	-6)maximum: add "maximum" class in which field you need maximum character in field validation..
+	-6)fix-lenght: add "fix-lenght" class in which field you need fix digit or character in field validation.(like 10 digit you need)
 	
 -----------------------------------------------------------------------------------------------------------------------------------------
 
