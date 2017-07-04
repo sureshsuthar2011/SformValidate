@@ -8,10 +8,12 @@ NOTE :  include SformValidate.css anf SformValidate.js file in your document
 Easy to use this plugin in our site.
 -> Add below function after js file 
 
+  ```js
   $(target_form).submit(function(){
-                      $(this).SfromValidate();
-                     return false;
-                 });
+     $(this).SfromValidate();
+         return false;
+  });
+```		 
                  
   in target_form add form class, id or custom attribute ..
 
