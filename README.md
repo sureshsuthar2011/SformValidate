@@ -21,8 +21,8 @@ Easy to use this plugin in our site.
 
 East  to validate my form.
 
-`(1)required : add "required" class in which field you need required field validation.
- (2)email : add "email" class in which filed you need email field validation.
+`(1)required : add "required" class in which field you need required field validation.`
+ `(2)email : add "email" class in which filed you need email field validation.
  (3)character : add "character" class in which field you need character  field validation.
  (4)number : add "number" class in which field you need number  field validation.
  (5)minimum : add "minimum" class in which field you need atleast minimum  character in field validation.
