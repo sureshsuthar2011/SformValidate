@@ -33,92 +33,86 @@ East  to validate my form.
 
 East to set custome validation message.
 ```js
-	  $(target_form).submit(function(){
-                      $(this).SfromValidate({
-                           required_message: "add your custom message for required field validation",
-                            sucess_message: "add your custom message for email sent sucessfully",
-	             invalid_email_message: "add your custom message for Invalid email validation",
-                          only_character_message: "add your custom message for enter only a character validation",
-                          only_digit_message: "add your custom message form enter only a digit field validation",
-                          minimum_digit_message: "add your custom message for enter atleast 2 character validation",
-                         maximum_digit_message: "add your custom message for enter more than 8 character validation",
-                      });
-                     return false;
-                 });
+$(target_form).submit(function () {
+    $(this).SfromValidate({
+        required_message: "add your custom message for required field validation",
+        sucess_message: "add your custom message for email sent sucessfully",
+        invalid_email_message: "add your custom message for Invalid email validation",
+        only_character_message: "add your custom message for enter only a character validation",
+        only_digit_message: "add your custom message form enter only a digit field validation",
+        minimum_digit_message: "add your custom message for enter atleast 2 character validation",
+        maximum_digit_message: "add your custom message for enter more than 8 character validation",
+    });
+    return false;
+});
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 Easy to set minimum and maximum validation range in field validation. 
 `The default mimimum range is 2 and maximum range is 8 .`
 ```js
-$(target_form).submit(function(){
-                      $(this).SfromValidate({
-                           maximum: set your custom minimum range,
-                            maximum: set your maximum custom range,
-	           
-                      });
-                     return false;
-                 });
+
+$(target_form).submit(function () {
+    $(this).SfromValidate({
+        maximum: set your custom minimum range,
+        maximum: set your maximum custom range,
+    });
+    return false;
+});
+
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 Easy to change border color instead of validation message ?
 ```js
-	$(target_form).submit(function(){
-                      $(this).SfromValidate({
-                           deactive_validation_message: true
-	           
-                      });
-                     return false;
-                 });
+$(target_form).submit(function () {
+    $(this).SfromValidate({
+        deactive_validation_message: true
+    });
+    return false;
+});
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------
 Easy to show response message from form targated file
 ```js
-	$(target_form).submit(function(){
-                      $(this).SfromValidate({
-                           show_response: true
-	           
-                      });
-                     return false;
-                 });
+$(target_form).submit(function () {
+    $(this).SfromValidate({
+        show_response: true
+    });
+    return false;
+});
  ```                
 -----------------------------------------------------------------------------------------------------------------------------------------
 Easy to set fix limit of field value
 ```js
-	$(target_form).submit(function(){
-                      $(this).SfromValidate({
-                           field_length: 12
-	           
-                      });
-                     return false;
-                 });
+$(target_form).submit(function () {
+    $(this).SfromValidate({
+        field_length: 12
+    });
+    return false;
+});
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------
 Easy to avoid use form submit using ajax
 ```js
-    var $response  = $(this).SfromValidate({
-                           show_response: true,
-                           no_need_ajax: true,
-                      })
-                     alert($response);
-                     if($response=='true')
-                         {
-                             return true;
-                         }
-                     else
-                         {
-                             return false;
-                         }
-                    
-                 })
+var $response = $(this).SfromValidate({
+    show_response: true,
+    no_need_ajax: true,
+})
+alert($response);
+if ($response == 'true') {
+    return true;
+} else {
+    return false;
+}
+})
   ```               
 -----------------------------------------------------------------------------------------------------------------------------------------
 Easy to set validation message position
 ```js
-    var $response  = $(this).SfromValidate({
-                          validation_message_position : $('.class_name_where_validation_msg_show')
-                      })
+var $response  = $(this).SfromValidate({
+   validation_message_position : $('.class_name_where_validation_msg_show')
+})
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------
 Easy to set custom validation message
@@ -128,9 +122,9 @@ Easy to set custom validation message
 -----------------------------------------------------------------------------------------------------------------------------------------
 Easy to choose if you don't want loader
 ```js
-    var $response  = $(this).SfromValidate({
-                          hide_loader : true
-                      })
+$(this).SfromValidate({
+    hide_loader : true
+})
                      
 ```
 
