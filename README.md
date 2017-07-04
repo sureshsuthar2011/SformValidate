@@ -117,7 +117,7 @@ $(this).SfromValidate({
 -----------------------------------------------------------------------------------------------------------------------------------------
 Easy to set custom validation message
 
-     ```html  <input type="text" class="required" data-validation="Loan value field is reqired" name="ur_loan_value">```		
+     `<input type="text" class="required" data-validation="Loan value field is reqired" name="ur_loan_value">`		
                
 -----------------------------------------------------------------------------------------------------------------------------------------
 Easy to choose if you don't want loader
